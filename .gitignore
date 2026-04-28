@@ -1,8 +1,14 @@
-# Ignore sensitive files
-*.key
-*.secret
+# Python cache files
 __pycache__/
+*.py[cod]
+
+# Security & Private Keys
+*.key
+*.pem
+secrets/
 .env
-build/
-liboqs/
-*.so
+
+# Termux & OS specific
+.bash_history
+.ssh/
+
